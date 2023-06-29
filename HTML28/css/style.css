@@ -1,0 +1,26 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: sans-serif;
+}
+.wrapper{
+  padding: 50px;
+  height: 100%;
+}
+.container{
+  border: 20px solid rgb(231, 203, 172);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+}
+.container-item{
+  border: 20px solid rgb(143, 91, 91);
+}
+.container__item-content{
+  background-color: rgb(83, 64, 44);
+  text-align: center;
+  padding: 50px;
+  font-size: 3rem;
+}
